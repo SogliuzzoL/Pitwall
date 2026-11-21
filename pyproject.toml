@@ -3,10 +3,8 @@ name = "pitwall"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-authors = [
-    { name = "Loris Sogliuzzo", email = "loris@sogliuzzo.com" }
-]
-requires-python = ">=3.13"
+authors = [{ name = "Loris Sogliuzzo", email = "loris@sogliuzzo.com" }]
+requires-python = "==3.15.*"
 dependencies = []
 
 [project.scripts]

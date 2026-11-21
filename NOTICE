@@ -1,0 +1,17 @@
+Pitwall
+Copyright 2026 The Pitwall Authors
+
+This product includes software developed as part of the Pitwall project.
+
+--------------------------------------------------------------------------------
+Third-party notices
+
+FastF1
+Unofficial Python client for publicly available Formula 1 timing data.
+https://github.com/theOehrly/Fast-F1
+
+Formula 1, F1, FIA and related marks are trademarks of their respective owners.
+Pitwall is an independent project and is not affiliated with, endorsed by, or
+sponsored by Formula One Management, the FIA, or any Formula 1 team.
+
+Raw Formula 1 timing data is not distributed with this repository.
