@@ -82,6 +82,12 @@ make reproduce
 
 This is the target interface; it is not implemented yet.
 
+## Development workflow
+
+GitFlow. Work happens on `feature/*` branches cut from `develop`; releases are stabilised on `release/*` and merged into `main`, which is the only deployable branch. Releases are tagged with SemVer on `main`. Conventions are documented in [`AGENTS.md`](AGENTS.md).
+
+Code, data and model versions move independently: a SemVer tag identifies the code, a DVC revision identifies the data, and an MLflow registry entry identifies the model. Every prediction records all three.
+
 ## Data, attribution and legal notice
 
 Pitwall is an independent project. It is not affiliated with Formula 1, the FIA, Formula One Management, or any team.
